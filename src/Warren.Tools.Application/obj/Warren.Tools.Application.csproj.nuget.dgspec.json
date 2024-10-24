@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Warren.Tools.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Warren.Tools.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Warren.Tools.Application.csproj",
+        "projectName": "Warren.Tools.Application",
+        "projectPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Warren.Tools.Application.csproj",
+        "packagesPath": "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jaelson.lima_3rd.war\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj": {
+                "projectPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj",
+        "projectName": "Warren.Tools.Domain",
+        "projectPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj",
+        "packagesPath": "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jaelson.lima_3rd.war\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

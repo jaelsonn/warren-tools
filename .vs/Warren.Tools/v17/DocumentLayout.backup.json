@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workspace\\dotNet\\Warren.Tools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C4AEC8-6AD5-4840-AC68-9E4A384EAD7A}|src\\Warren.Tools.API\\Warren.Tools.API.csproj|c:\\workspace\\dotnet\\warren.tools\\src\\warren.tools.api\\warren.tools.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B7C4AEC8-6AD5-4840-AC68-9E4A384EAD7A}|src\\Warren.Tools.API\\Warren.Tools.API.csproj|solutionrelative:src\\warren.tools.api\\warren.tools.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CE1427-D686-420B-B6F9-9C565950CF8A}|src\\Warren.Tools.Application\\Warren.Tools.Application.csproj|c:\\workspace\\dotnet\\warren.tools\\src\\warren.tools.application\\services\\boletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CE1427-D686-420B-B6F9-9C565950CF8A}|src\\Warren.Tools.Application\\Warren.Tools.Application.csproj|solutionrelative:src\\warren.tools.application\\services\\boletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C4AEC8-6AD5-4840-AC68-9E4A384EAD7A}|src\\Warren.Tools.API\\Warren.Tools.API.csproj|c:\\workspace\\dotnet\\warren.tools\\src\\warren.tools.api\\controllers\\necessidadecaixacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C4AEC8-6AD5-4840-AC68-9E4A384EAD7A}|src\\Warren.Tools.API\\Warren.Tools.API.csproj|solutionrelative:src\\warren.tools.api\\controllers\\necessidadecaixacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6468AE2-F5B9-4FB9-B611-A9AA38854E0B}|src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj|c:\\workspace\\dotnet\\warren.tools\\src\\warren.tools.domain\\interfaces\\services\\iboletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6468AE2-F5B9-4FB9-B611-A9AA38854E0B}|src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj|solutionrelative:src\\warren.tools.domain\\interfaces\\services\\iboletaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Warren.Tools.API.http",
+              "DocumentMoniker": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.API\\Warren.Tools.API.http",
+              "RelativeDocumentMoniker": "src\\Warren.Tools.API\\Warren.Tools.API.http",
+              "ToolTip": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.API\\Warren.Tools.API.http",
+              "RelativeToolTip": "src\\Warren.Tools.API\\Warren.Tools.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-23T20:55:28.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoletaService.cs",
+              "DocumentMoniker": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Services\\BoletaService.cs",
+              "RelativeDocumentMoniker": "src\\Warren.Tools.Application\\Services\\BoletaService.cs",
+              "ToolTip": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Services\\BoletaService.cs",
+              "RelativeToolTip": "src\\Warren.Tools.Application\\Services\\BoletaService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:20:12.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBoletaService.cs",
+              "DocumentMoniker": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Interfaces\\Services\\IBoletaService.cs",
+              "RelativeDocumentMoniker": "src\\Warren.Tools.Domain\\Interfaces\\Services\\IBoletaService.cs",
+              "ToolTip": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Interfaces\\Services\\IBoletaService.cs",
+              "RelativeToolTip": "src\\Warren.Tools.Domain\\Interfaces\\Services\\IBoletaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T13:43:15.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NecessidadeCaixaController.cs",
+              "DocumentMoniker": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.API\\Controllers\\NecessidadeCaixaController.cs",
+              "RelativeDocumentMoniker": "src\\Warren.Tools.API\\Controllers\\NecessidadeCaixaController.cs",
+              "ToolTip": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.API\\Controllers\\NecessidadeCaixaController.cs",
+              "RelativeToolTip": "src\\Warren.Tools.API\\Controllers\\NecessidadeCaixaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T13:22:45.319Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

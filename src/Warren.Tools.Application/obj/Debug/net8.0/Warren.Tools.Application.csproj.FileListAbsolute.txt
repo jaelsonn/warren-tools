@@ -1,0 +1,15 @@
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\bin\Debug\net8.0\Warren.Tools.Application.deps.json
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\bin\Debug\net8.0\Warren.Tools.Application.dll
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\bin\Debug\net8.0\Warren.Tools.Application.pdb
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\bin\Debug\net8.0\Warren.Tools.Domain.dll
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\bin\Debug\net8.0\Warren.Tools.Domain.pdb
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.Tools.Application.csproj.AssemblyReference.cache
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.Tools.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.Tools.Application.AssemblyInfoInputs.cache
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.Tools.Application.AssemblyInfo.cs
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.Tools.Application.csproj.CoreCompileInputs.cache
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.T.21C50D2A.Up2Date
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.Tools.Application.dll
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\refint\Warren.Tools.Application.dll
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\Warren.Tools.Application.pdb
+C:\Workspace\dotNet\Warren.Tools\src\Warren.Tools.Application\obj\Debug\net8.0\ref\Warren.Tools.Application.dll

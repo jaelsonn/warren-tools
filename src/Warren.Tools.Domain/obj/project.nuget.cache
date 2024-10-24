@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PD38AcoVxEE=",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
