@@ -18,6 +18,18 @@
           }
         }
       },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Abstractions/8.0.10": {
         "type": "package",
         "compile": {
@@ -83,6 +95,44 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Selenium.Support/4.26.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.26.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.26.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Selenium.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/132.0.6834.600-beta": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -128,6 +178,21 @@
         "icon.png",
         "lib/net6.0/AutoMapper.dll",
         "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "sha512": "xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
+      "type": "package",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.waithelpers.nuspec",
+        "lib/net35/SeleniumExtras.WaitHelpers.dll",
+        "lib/net40/SeleniumExtras.WaitHelpers.dll",
+        "lib/net45/SeleniumExtras.WaitHelpers.dll",
+        "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll"
       ]
     },
     "Microsoft.EntityFrameworkCore.Abstractions/8.0.10": {
@@ -216,6 +281,66 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Selenium.Support/4.26.1": {
+      "sha512": "fvDpwaH0QLcrlboEyX6KR0DuK5IiHrip7V0o21zUG+dTZ3PlD9DvpAESqhnnv47083fk4Cd0Ee7JjVCpDRuFng==",
+      "type": "package",
+      "path": "selenium.support/4.26.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.4.26.1.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.26.1": {
+      "sha512": "f0t/Oo9l2aK+znAv/McTPSz6p0fSoIYMZpkHql1ndItqu1n6PGXE1XRhziVk2zwG3RBUzEfIr6r/emkl6sP63w==",
+      "type": "package",
+      "path": "selenium.webdriver/4.26.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
+        "icon.png",
+        "lib/net8.0/WebDriver.dll",
+        "lib/net8.0/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.26.1.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/132.0.6834.600-beta": {
+      "sha512": "4DXgP6GUCjfWT44CGjDfAqqjtTG8qtzAcuEryJH0ETIXGWiN4SxuSDSWUtsMdBW5Y0XMnNF61Nzr/8Ta0ybn2w==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/132.0.6834.600-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.132.0.6834.600-beta.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -250,39 +375,40 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 13.0.1",
+      "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
+      "Selenium.Support >= 4.26.1",
+      "Selenium.WebDriver >= 4.26.1",
+      "Selenium.WebDriver.ChromeDriver >= 132.0.6834.600-beta",
       "Warren.Tools.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\": {}
+    "/Users/jaelsonlima/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Warren.Tools.Application.csproj",
+      "projectUniqueName": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Application/Warren.Tools.Application.csproj",
       "projectName": "Warren.Tools.Application",
-      "projectPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Warren.Tools.Application.csproj",
-      "packagesPath": "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\obj\\",
+      "projectPath": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Application/Warren.Tools.Application.csproj",
+      "packagesPath": "/Users/jaelsonlima/.nuget/packages/",
+      "outputPath": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jaelson.lima_3rd.war\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jaelsonlima/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj": {
-              "projectPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj"
+            "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Domain/Warren.Tools.Domain.csproj": {
+              "projectPath": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Domain/Warren.Tools.Domain.csproj"
             }
           }
         }
@@ -305,6 +431,22 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "DotNetSeleniumExtras.WaitHelpers": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.26.1, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.26.1, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[132.0.6834.600-beta, )"
           }
         },
         "imports": [
@@ -323,7 +465,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

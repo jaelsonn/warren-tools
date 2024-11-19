@@ -3,6 +3,7 @@ using Warren.Tools.Application.Mapper;
 using Warren.Tools.Application.Services;
 using Warren.Tools.Domain.Interfaces.Repositories;
 using Warren.Tools.Domain.Interfaces.Services;
+using Warren.Tools.Domain.Services;
 using Warren.Tools.Infra.Context;
 using Warren.Tools.Infra.Repositories;
 
@@ -11,14 +12,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(5, 7)) // Versão 5.7 do MySQL
+        new MySqlServerVersion(new Version(5, 7)) // Versï¿½o 5.7 do MySQL
     ));
 // Add services to the container.
 
-// Registrar serviços
+// Registrar serviï¿½os
 builder.Services.AddScoped<IBoletaService, BoletaService>(); 
 builder.Services.AddScoped<IBoletaRepository, BoletaRepository>(); 
-builder.Services.AddScoped<IPuRepository, PuRepository>(); 
+builder.Services.AddScoped<IPuRepository, PuRepository>();
+builder.Services.AddScoped<IRoboService, RoboService>();
 
 
 builder.Services.AddControllers();

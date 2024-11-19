@@ -7,6 +7,7 @@ namespace Warren.Tools.Domain.Interfaces.Services
     public interface IBoletaService
     {
         Task<NecessidadeCaixaResponse> CalculoNecessidadeCaixaPorLista(List<BoletasIds> request);
-        Task<List<BoletaEntity>> GetAllBoletas();        
+        Task<List<BoletaEntity>> GetAllBoletas();
+        Task<NecessidadeCaixaResponse> CalculoNecessidadeCaixaTodasBoletas();
     }
 }

@@ -1,4 +1,6 @@
-﻿using Com.Warren.Services.Response;
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
+using Com.Warren.Services.Response;
 using Microsoft.AspNetCore.Mvc;
 using Warren.Tools.Domain.DTO.Request;
 using Warren.Tools.Domain.DTO.Response;
@@ -17,7 +19,7 @@ namespace Warren.Tools.API.Controllers
             _boletaservice = boletaservice;
         }
 
-        [HttpGet("getAllBoletas")]
+        [HttpGet("getAllBoletasIntradias")]
         [ProducesResponseType(typeof(List<BoletaResponse>), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetAllBoletas()
         {
@@ -25,12 +27,21 @@ namespace Warren.Tools.API.Controllers
             return Ok(response); 
         }
 
-        [HttpPost("postCalxuloNecessidadeCaixaByRange")]
+        [HttpPost("postCalculoNecessidadeCaixaPorRange")]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(NecessidadeCaixaResponse))]
-        public async Task<IActionResult> PostNecessidadeCaixaByRange(List<BoletasIds> request)
+        public async Task<IActionResult> PostNecessidadeCaixaPorRange(List<BoletasIds> request)
         {
             var result = await _boletaservice.CalculoNecessidadeCaixaPorLista(request);
 
+            return Ok(result);
+        }
+        
+        [HttpPost("postCalculoNecessidadeCaixaTodasBoletas")]
+        [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(NecessidadeCaixaResponse))]
+        public async Task<IActionResult> PostNecessidadeCaixaTodas()
+        {
+            var result = await _boletaservice.CalculoNecessidadeCaixaTodasBoletas();
+            
             return Ok(result);
         }
     }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../api-services" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../desafio_21_dias_multiplas_api_usuarios_csharp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../java/institutional-desk-bonds-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../necessidade" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../necessidade/warren-tools" vcs="Git" />
+  </component>
+</project>

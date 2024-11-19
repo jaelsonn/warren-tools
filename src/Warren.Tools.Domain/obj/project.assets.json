@@ -40,27 +40,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\": {}
+    "/Users/jaelsonlima/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj",
+      "projectUniqueName": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Domain/Warren.Tools.Domain.csproj",
       "projectName": "Warren.Tools.Domain",
-      "projectPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\Warren.Tools.Domain.csproj",
-      "packagesPath": "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Domain\\obj\\",
+      "projectPath": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Domain/Warren.Tools.Domain.csproj",
+      "packagesPath": "/Users/jaelsonlima/.nuget/packages/",
+      "outputPath": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jaelson.lima_3rd.war\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jaelsonlima/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -105,7 +102,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

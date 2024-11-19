@@ -29,6 +29,17 @@
           }
         }
       },
+      "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.26.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.WaitHelpers.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/8.0.10": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.10",
@@ -177,6 +188,26 @@
           }
         }
       },
+      "Selenium.Support/4.26.1": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.26.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.26.1": {
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/132.0.6834.600-beta": {},
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -218,6 +249,10 @@
       "Warren.Tools.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
+          "Selenium.Support": "4.26.1",
+          "Selenium.WebDriver": "4.26.1",
+          "Selenium.WebDriver.ChromeDriver": "132.0.6834.600-beta",
           "Warren.Tools.Domain": "1.0.0"
         },
         "runtime": {
@@ -264,6 +299,13 @@
       "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "path": "automapper/13.0.1",
       "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
+      "path": "dotnetseleniumextras.waithelpers/3.11.0",
+      "hashPath": "dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/8.0.10": {
       "type": "package",
@@ -383,6 +425,27 @@
       "sha512": "sha512-XjnlcxVBLnEMbyEc5cZzgZeDyLvAniACZQ04W1slWN0f4rmfNzl98gEMvHnFH0fMDF06z9MmgGi/Sr7hJ+BVnw==",
       "path": "pomelo.entityframeworkcore.mysql/8.0.2",
       "hashPath": "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
+    },
+    "Selenium.Support/4.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fvDpwaH0QLcrlboEyX6KR0DuK5IiHrip7V0o21zUG+dTZ3PlD9DvpAESqhnnv47083fk4Cd0Ee7JjVCpDRuFng==",
+      "path": "selenium.support/4.26.1",
+      "hashPath": "selenium.support.4.26.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f0t/Oo9l2aK+znAv/McTPSz6p0fSoIYMZpkHql1ndItqu1n6PGXE1XRhziVk2zwG3RBUzEfIr6r/emkl6sP63w==",
+      "path": "selenium.webdriver/4.26.1",
+      "hashPath": "selenium.webdriver.4.26.1.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/132.0.6834.600-beta": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4DXgP6GUCjfWT44CGjDfAqqjtTG8qtzAcuEryJH0ETIXGWiN4SxuSDSWUtsMdBW5Y0XMnNF61Nzr/8Ta0ybn2w==",
+      "path": "selenium.webdriver.chromedriver/132.0.6834.600-beta",
+      "hashPath": "selenium.webdriver.chromedriver.132.0.6834.600-beta.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

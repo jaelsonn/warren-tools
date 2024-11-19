@@ -1,4 +1,7 @@
-﻿using AutoMapper;
+﻿using System.Globalization;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using AutoMapper;
 using Com.Warren.Services.Response;
 using Warren.Tools.Application.Util;
 using Warren.Tools.Domain.DTO.Request;
@@ -7,21 +10,23 @@ using Warren.Tools.Domain.Entities;
 using Warren.Tools.Domain.Interfaces.Repositories;
 using Warren.Tools.Domain.Interfaces.Services;
 using Warren.Tools.Domain.Models;
+using Warren.Tools.Domain.Services;
 
 namespace Warren.Tools.Application.Services
 {
     public class BoletaService : IBoletaService
     {
-
         private readonly IBoletaRepository _boletaRepository;
         private readonly IPuRepository _puRepository;
         private IMapper _mapper;
+        private readonly IRoboService _roboService;
 
-        public BoletaService(IBoletaRepository boletaRepository, IMapper mapper, IPuRepository puRepository)
+        public BoletaService(IBoletaRepository boletaRepository, IMapper mapper, IPuRepository puRepository, IRoboService roboService)
         {
             _boletaRepository = boletaRepository;
             _puRepository = puRepository;
             _mapper = mapper;
+            _roboService = roboService;
         }
 
         public async Task<List<BoletaEntity>> GetAllBoletas() //boletas de compra intradias
@@ -42,7 +47,16 @@ namespace Warren.Tools.Application.Services
 
 
             return boletasNaoLiquidadas;
-        }        
+        }
+
+        public async Task<NecessidadeCaixaResponse> CalculoNecessidadeCaixaTodasBoletas()
+        {
+            var todasBoletasIntradias = await GetAllBoletas();
+            
+            var response =  await CalculoNecessidadeCaixaInterno(todasBoletasIntradias);
+            
+            return response;
+        }
 
         public async Task<NecessidadeCaixaResponse> CalculoNecessidadeCaixaPorLista(List<BoletasIds> request)
         {
@@ -78,11 +92,11 @@ namespace Warren.Tools.Application.Services
 
                 var pu550List = await _puRepository.GetAll(dataOntem, dataHoje);
 
-                //var valorCaixaJd = roboService.IniciarRobo().Replace(".", "").Replace(",", ".");
-                //double saldoJd = double.TryParse(valorCaixaJd, out var result) ? result : 0.0;
-                //double valorCaixaAtual = saldoJd;
+                var valorCaixaJd = _roboService.IniciarRobo();
+                var valorFormatado = valorCaixaJd.Replace(".", "").Replace(",",".");
+                var valorCaixaAtual = double.Parse(valorFormatado, CultureInfo.InvariantCulture);
 
-                var valorCaixaAtual = 0.0;
+                //var valorCaixaAtual = 0.0;
                 var valorAPagar = 0.0;
                 var porcentagem = 0.60;
                 var porcentagemConsumida = 0.0;
@@ -127,11 +141,14 @@ namespace Warren.Tools.Application.Services
                 }
 
                 porcentagemConsumida = (Math.Abs(valorAPagar) / valorCaixaAtual);
+                
+                var porcentagemConsumidaTratada = double.IsNaN(porcentagemConsumida) ? 0 : porcentagemConsumida;
+
 
                 var response = new NecessidadeCaixaResponse(
                     decimal.Round((decimal)valorCaixaAtual, 2, MidpointRounding.AwayFromZero),
                     decimal.Round((decimal)valorAPagar, 2, MidpointRounding.AwayFromZero),
-                    porcentagemConsumida,
+                    porcentagemConsumidaTratada , 
                     porcentagem
                 );
 

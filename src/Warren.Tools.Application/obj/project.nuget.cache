@@ -1,15 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "1XbNBMR9inQ=",
+  "dgSpecHash": "FWgEUylVO4k=",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\dotNet\\Warren.Tools\\src\\Warren.Tools.Application\\Warren.Tools.Application.csproj",
+  "projectFilePath": "/Users/jaelsonlima/Documents/Workspace/dotNet/Warren.Tools/src/Warren.Tools.Application/Warren.Tools.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\jaelson.lima_3rd.war\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/Users/jaelsonlima/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/dotnetseleniumextras.waithelpers/3.11.0/dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.10/microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/selenium.support/4.26.1/selenium.support.4.26.1.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/selenium.webdriver/4.26.1/selenium.webdriver.4.26.1.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/selenium.webdriver.chromedriver/132.0.6834.600-beta/selenium.webdriver.chromedriver.132.0.6834.600-beta.nupkg.sha512",
+    "/Users/jaelsonlima/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
