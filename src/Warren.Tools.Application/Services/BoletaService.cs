@@ -43,9 +43,7 @@ namespace Warren.Tools.Application.Services
                         && !b.AssociationCommand.Equals("")
                         && (b.IdMessage != 6 && b.IdMessage != 7)
                         && (b.SellerSelicAccount == "071200309" || b.BuyerSelicAccount == "071200309")).ToList();
-
-
-
+            
             return boletasNaoLiquidadas;
         }
 
@@ -115,6 +113,7 @@ namespace Warren.Tools.Application.Services
                         {
                             foreach (var pu550 in pu550List)
                             {
+                                
                                 if (bondCodeBoleta.Equals(pu550.BondCode) &&
                                     dateLiquidation.Equals(pu550.MovementDate) &&
                                     maturityBoleta.Equals(pu550.Maturity))
@@ -142,14 +141,11 @@ namespace Warren.Tools.Application.Services
 
                 porcentagemConsumida = (Math.Abs(valorAPagar) / valorCaixaAtual);
                 
-                var porcentagemConsumidaTratada = double.IsNaN(porcentagemConsumida) ? 0 : porcentagemConsumida;
-
-
                 var response = new NecessidadeCaixaResponse(
                     decimal.Round((decimal)valorCaixaAtual, 2, MidpointRounding.AwayFromZero),
                     decimal.Round((decimal)valorAPagar, 2, MidpointRounding.AwayFromZero),
-                    porcentagemConsumidaTratada , 
-                    porcentagem
+                    porcentagemConsumida , 
+                    porcentagem 
                 );
 
                 return (response);

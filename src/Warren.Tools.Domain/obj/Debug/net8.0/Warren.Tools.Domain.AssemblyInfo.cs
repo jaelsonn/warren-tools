@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Warren.Tools.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37ff28aec32d6f9b2635877f0e7f116509ebf638")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ee5b78530231e324026bf60b2be49138b6fc236")]
 [assembly: System.Reflection.AssemblyProductAttribute("Warren.Tools.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Warren.Tools.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
